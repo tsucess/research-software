@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Search Page</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- FONT AWESOME    -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+</head>
+
+<body>
+  <!-- <h1>New Project</h1> -->
+  <nav class="navbar navbar-expand-lg fixed-top menu " aria-label="Fourth navbar example">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">ProjectLogo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
+        aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample04">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Plans & Pricings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Chrome Extensions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Plagiarism Credits</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">API</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Help Center</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+        </ul>
+        <!-- <a href="" class="btn btn-primary"><i class="fas fa-plus"></i> Create Content</a> -->
+        <button  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalSignin"><i class="fas fa-plus"></i> Create Content</button>
+        <img src="./img/nodp.png" alt="" width="32" height="32" class="rounded-circle mx-2 me-2">
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="row mt-5 ">
+
+
+      <!-- SIDEBAR SECTION  -->
+      <div class=" col-md-3 col-lg-2 pt-5 p-3  fixed-top side-menu">
+        <a href="/" class="d-flex align-items-center mt-5 mb-md-0 me-md-auto link-dark text-decoration-none">
+          <span class="fs-5">1,500 Words Left</span>
+        </a>
+        <hr>
+        <ul class="nav nav-pills flex-column mb-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link " aria-current="page">
+              <i class="fas fa-home"></i>
+              Dashboard
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              <i class="fas fa-gear"></i>
+              All Tools
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              <i class="fas fa-book"></i>
+              My Content
+            </a>
+          </li>
+          <hr>
+          <li>
+            <a href="article-generator.html" class="nav-link active">
+              <i class="fas fa-scroll"></i>
+              Article Generator
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              <i class="fas fa-message"></i>
+              Chat
+            </a>
+          </li>
+          <li>
+            <a href="smart-editor.html" class="nav-link link-dark">
+              <i class="fas fa-file-pen"></i>
+              Smart Editor
+            </a>
+          </li>
+          <li>
+            <a href="search-page.html" class="nav-link link-dark">
+              <i class="fas fa-rotate"></i>
+              Search Resources
+            </a>
+          </li>
+        </ul>
+        <hr>
+        <div class="dropdown">
+          <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="./img/nodp.png" alt="" width="32" height="32" class="rounded-circle me-2">
+            <strong>User</strong>
+          </a>
+          <ul class="dropdown-menu text-small shadow">
+            <li><a class="dropdown-item" href="#">New project...</a></li>
+            <li><a class="dropdown-item" href="#">Settings</a></li>
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
+          </ul>
+        </div>
+      </div>
+
+
+      <!-- MAIN MENU SECTION  -->
+      <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 article-main-sect">
+        <!-- <div class="container"> -->
+
+          <div class="row my-3">
+            <h2>Project Wizard</h2>
+          <div class="col-lg-10">
+            <p>These are the most popular tools and a good place to start. Give them a try</p>
+          </div>
+        </div>
+        <hr>
+        
+        <div class="row add-section">
+          <div class="col-lg-3 col-md-6 m-2 tool">
+            <a href="#">
+              <span class="icon">
+                <i class="fas fa-circle-plus"></i>
+              </span>
+              <h4>Project From Scratch</h4>
+              <p>Tell AI what to write about with a few Words</p>
+            </a>
+          </div>
+        </div>
+        <hr>
+        
+        <div class="row">
+          <div class="col-md-6 search-section">
+            <input type="text" class="form-control px-5 " placeholder="Search">
+            <i class="fas fa-search search-icon"></i>
+            <p>MODIFIED SOMETIME AGO</p>
+            <span class="icon"><i class="fas fa-file"></i> Effect of past curriculum on Nigerian Higher Education</span>
+          </div>
+          
+          <div class="col-md-6 search-section">
+            <select name="authors" id="author" class="form-control">
+              <option value="1">Created by anyone</option>
+              <option value="1">Created by User</option>
+              <option value="1">Created by Group</option>
+              <i class="fas fa-angle-down"></i>
+            </select>
+            <p>LAST MODIFIED</p>
+            <span>February 25, 2023  <i class="fas fa-angle-right"></i>
+            </span>
+          </div>
+        </div>
+        <hr>
+      <!-- </div> -->
+        
+      <div class="row menu-button fixed-bottom">
+        <button class="btn btn-primary shadow ">Click to view Menu <i class="fas fa-chevron-up"></i></button>
+        </div>
+
+      </main>
+    </div>
+  </div>
+
+
+
+
+<!-- MODAL SECTION  -->
+
+<div class="modal py-5" tabindex="-1" id="modalSignin">
+  <div class="modal-dialog ">
+    <div class="modal-content mt-5">
+      <div class="modal-header">
+        <h5 class="modal-title">Create Project</h5>
+        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+      </div>
+      <div class="modal-body">
+      <form class="add-category-modal">
+            <div class="form-floating text-center">
+                <div class="error-txtmodal"></div>
+            </div>
+            <div class="form-group mb-3">
+              <label for="category">Name</label>
+              <input type="text" class="form-control p-3 mt-2" name="category" placeholder="Project Name">
+            </div>
+            <div class="form-group mb-3">
+              <label for="category">Domain name (optional)</label>
+              <input type="text" class="form-control p-3 mt-2" name="category" placeholder="google.com">
+            </div>
+            <div class="row m-auto">
+              <div class="col-sm-6">
+                <button class="w-100 mb-2 btn btn-lg rounded-3 btn-warning add-category-btn"  data-bs-dismiss="modal" aria-label="Close" type="submit" >Cancel</button>
+              </div>
+              <div class="col-sm-6">
+                <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary add-category-btn"  type="submit" >Save</button>
+              </div>
+            </div>
+          </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
